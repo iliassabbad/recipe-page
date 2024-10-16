@@ -6,18 +6,89 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     background-color: hsl(30, 54%, 90%);
 }
 
 
 .container{
-    width: 500px;
+    width: 710px;
     border: 2px solid;
+    border-radius: 20px;
+    margin: 2rem auto 0;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
 }
-
 
 img{
-    width: 400px;
-    margin: ;
+    width: 90%;
+    margin-top: 25px;
+    border-radius: 10px;
 }
+
+.recipt-title-and-description{
+    width: 90%;
+    text-align: left;
+    margin: 25px auto 0;
+
+}
+
+.recipt-title-and-description .title{
+    font-family: 'Young serif';
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: hsl(24, 5%, 18%);
+}
+
+.recipt-title-and-description .description{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Outfit';
+    color: hsl(30, 10%, 34%);
+}
+
+.recipte-preparation-time{
+    width: 90%;
+    border-radius: 10px;
+    text-align: left;
+    margin: 25px auto 0;
+    background: hsl(330, 100%, 98%);
+}
+
+.recipte-preparation-time .title{
+    padding: 20px 0 0 20px;
+    margin-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.recipte-preparation-time .list{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-left: 1.3rem;
+    font-size: 16px;
+    font-family: 'Outfit';
+    color: hsl(30, 10%, 34%);
+}
+.recipte-preparation-time ul li{
+    margin-bottom: 10px;
+}
+
+.recipte-preparation-time .list span{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.recipte-preparation-time li::marker {
+    color: hsl(332, 51%, 32%);
+    font-size: 13px;
+   
+}
+
+
