@@ -10,16 +10,19 @@
 
 body{
     background-color: hsl(30, 54%, 90%);
+    padding-bottom: 100px;
 }
 
 hr{
     width: 90%;
     margin: 0 auto 0;
+    color: hsl(24, 5%, 18%);
 }
 
 
 .container{
     width: 710px;
+    height: 1450px;
     border: 2px solid;
     border-radius: 20px;
     margin: 2rem auto 0;
@@ -130,5 +133,41 @@ img{
 .ingredients ul li::marker{
     color: hsl(332, 51%, 32%);
     font-size: 13px;
+}
+
+
+.instructions{
+    width: 90%;
+    margin: 25px auto 30px;
+    text-align: left;
+}
+
+.instructions .title{
+    font-family: 'Young serif';
+    font-size: 20px;
+    font-weight: 500;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+}
+
+.instructions ol{
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    padding-left: 20px;
+}
+
+.instructions ol li{
+    margin-bottom: 10px;
+}
+
+.instructions ol li p{
+    margin-left: 10px;
+}
+
+.instructions ol li::marker{
+    color: hsl(332, 51%, 32%);
+    font-size: 13px;
+    font-weight: 700;
 }
 
