@@ -6,12 +6,15 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+
+
+
   <title>Frontend Mentor | Recipe page</title>
 
 </head>
 <body>
 
-    <div class="container">
+    <div class="recipe-container">
       <img src="assets/images/image-omelette.jpeg" alt="">
       <div class="recipt-title-and-description">
         <p class="title">Simple Omelette Recipe</p>
@@ -42,7 +45,7 @@
         </ul>
       </div>
 
-      <hr>
+      
 
       <div class="instructions">
         <p class="title">Instructions</p>
@@ -86,47 +89,36 @@
         </ol>
       </div>
 
-      <hr>
+      
 
-      <div class="nutrition">
-        <p class="title">Nutrition</p>
-        <p class="description">
-          The table below shows nutritional values per serving without the additional fillings.
-        </p>
-        <div class="nutritional-values">
-          <div>
-            <p class="nutritional-element">Calories</p>
-            <p class="nutritional-value">277kcal</p>
-          </div>
-        </div>
-      </div>
 
-      <!--
       
       <div class="nutrition">
-
+          <p class="title">Nutrition</p>
+          <p class="description">
+            The table below shows nutritional values per serving without the additional fillings.
+          </p>
         <table>
           <tbody>
             <tr>
-              <td>Calories</td>
-              <td>277kcal</td>
+              <td class="cell-element">Calories</td>
+              <td class="element-value">277kcal</td>
             </tr>
             <tr>
-              <td>Carbs</td>
-              <td>0g</td>
+              <td class="cell-element">Carbs</td>
+              <td class="element-value">0g</td>
             </tr>
             <tr>
-              <td>Protein</td>
-              <td>20g</td>
+              <td class="cell-element">Protein</td>
+              <td class="element-value">20g</td>
             </tr>
-            <tr>
-              <td>Fat</td>
-              <td>22g</td>
+            <tr class="border-none">
+              <td class="cell-element">Fat</td>
+              <td class="element-value">22g</td>
             </tr>
           </tbody>
         </table>
       </div>
--->
     </div>
 
 </body>
